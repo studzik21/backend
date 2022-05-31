@@ -31,6 +31,9 @@ dependencies {
 	implementation group: 'commons-codec', name: 'commons-codec', version: '1.11'
 }
 
+   task wrapper2(type: Wrapper) {
+	   gradleVersion = '7.4'
+   }
 
 jacoco {
 	toolVersion = "0.8.8"
