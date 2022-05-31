@@ -42,7 +42,7 @@ public class Term implements Comparable<Term>{
     }
 
     public void setDay(Days day) {
-        this.day = day;
+         this.day = day;
     }
 
     public int getWeek() {
